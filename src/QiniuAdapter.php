@@ -155,6 +155,7 @@ class QiniuAdapter implements AdapterInterface
      */
     public function listContents($directory = '', $recursive = false)
     {
+        $list = [];
         $r = $this->bucketManager->listFiles($this->bucket, $directory);
         foreach ($r[0] as $v) {
             $list[] = $this->normalizeFileInfo($v);
