@@ -1,0 +1,20 @@
+{
+    "name": "polev/flysystem-qiniu",
+    "description": "Flysystem adapter for Qiniu",
+    "authors": [
+        {
+            "name": "Pole Vong",
+            "email": "polevong@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0",
+        "qiniu/php-sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polev\\Flysystem\\Qiniu\\": "src/"
+        }
+    }
+}
