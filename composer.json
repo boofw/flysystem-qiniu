@@ -1,10 +1,10 @@
 {
-    "name": "polev/flysystem-qiniu",
+    "name": "boofw/flysystem-qiniu",
     "description": "Flysystem adapter for Qiniu",
     "authors": [
         {
-            "name": "Pole Vong",
-            "email": "polevong@live.com"
+            "name": "Boof Wang",
+            "email": "i@boof.wang"
         }
     ],
     "require": {
