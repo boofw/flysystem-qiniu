@@ -1,6 +1,6 @@
 <?php
 
-namespace Polev\Flysystem\Qiniu;
+namespace Boofw\Flysystem\Qiniu;
 
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
 use League\Flysystem\AdapterInterface;

@@ -1,9 +1,9 @@
-# Polev\Flysystem\Qiniu
+# Boofw\Flysystem\Qiniu
 
 This is a Flysystem adapter for the Qiniu.
 
 ```bash
-composer require polev/flysystem-qiniu
+composer require boofw/flysystem-qiniu
 ```
 
 # Bootstrap
@@ -11,7 +11,7 @@ composer require polev/flysystem-qiniu
 ``` php
 <?php
 use League\Flysystem\Filesystem;
-use Polev\Flysystem\Qiniu\QiniuAdapter as Adapter;
+use Boofw\Flysystem\Qiniu\QiniuAdapter as Adapter;
 
 $ak = '**********';
 $sk = '**********';

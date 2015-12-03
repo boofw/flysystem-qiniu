@@ -1,6 +1,6 @@
 <?php
 
-namespace Polev\Flysystem\Qiniu;
+namespace Boofw\Flysystem\Qiniu;
 
 /**
  * @deprecated deprecated since version 1.0.1
