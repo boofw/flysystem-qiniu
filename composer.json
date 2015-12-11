@@ -1,12 +1,7 @@
 {
     "name": "boofw/flysystem-qiniu",
     "description": "Flysystem adapter for Qiniu",
-    "authors": [
-        {
-            "name": "Boof Wang",
-            "email": "i@boof.wang"
-        }
-    ],
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "league/flysystem": "~1.0",
@@ -16,5 +11,12 @@
         "psr-4": {
             "Boofw\\Flysystem\\Qiniu\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Boof Wang",
+            "homepage": "http://boof.wang",
+            "email": "i@boof.wang"
+        }
+    ]
 }
