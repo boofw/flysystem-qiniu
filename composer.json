@@ -4,8 +4,8 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "league/flysystem": "~1.0",
-        "qiniu/php-sdk": "~7.0"
+        "league/flysystem": "1.0.15",
+        "qiniu/php-sdk": "7.0.6"
     },
     "autoload": {
         "psr-4": {
